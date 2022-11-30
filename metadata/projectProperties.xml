@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project MetadataType="monolithic">
+    <Files Location="Root">
+        <File Location="Data">
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="LFACC_02_DoubleCurve_AutoRetarget.mat">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="LFACC_04_Curve_CutInOut.mat">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="LFACC_01_DoubleCurve_DecelTarget.mat">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="ACC_04_StopnGo.mat">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="LFACC_05_Curve_CutInOut_TooClose.mat">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <Info/>
+            <File Location="ACC_01_ISO_TargetDiscriminationTest.mat">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="LFACC_03_DoubleCurve_StopnGo.mat">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="ACC_02_ISO_AutoRetargetTest.mat">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="ACC_03_ISO_CurveTest.mat">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+        </File>
+        <File Location="Tests">
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="LaneFollowingTestScenarios.slmx">
+                <Info/>
+            </File>
+            <Info/>
+            <File Location="LaneFollowingTestScenarios.mldatx">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="test"/>
+                    </Category>
+                </Info>
+            </File>
+        </File>
+        <File Location="readme.txt">
+            <Info/>
+        </File>
+        <File Location="Work">
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <Info/>
+        </File>
+        <File Location="Requirements">
+            <File Location="LaneFollowingTestRequirements.slreqx">
+                <Info/>
+            </File>
+            <Info/>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+        </File>
+        <File Location="Scripts">
+            <File Location="helperLFSetUp.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="createLaneFollowingController.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="LaneFollowingExecControllerBuild.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="none"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="getDiscreteModelForAdaptiveMPC.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <Info/>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="helperSessionToScenario.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="LaneFollowingExecModelAdvisor.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="none"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="plotLFResults.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="createLaneSensorBuses.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+        </File>
+        <File Location="Models">
+            <Info/>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="LFRefMdl.slx">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="LaneFollowingTestBenchExample.slx">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+        </File>
+    </Files>
+    <Categories Location="Root">
+        <Category Location="FileClassCategory">
+            <Label Location="other">
+                <Info Name="Other" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="artifact">
+                <Info Name="Artifact" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="none">
+                <Info Name="None" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="design">
+                <Info Name="Design" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="derived">
+                <Info Name="Derived" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="test">
+                <Info Name="Test" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="convenience">
+                <Info Name="Convenience" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Info DataType="None" Name="Classification" ReadOnly="1" SingleValued="1"/>
+        </Category>
+    </Categories>
+    <ProjectPath Location="Root">
+        <Reference Location="38ae4c5f-7b90-4a70-bd5e-4baf2f0d8957">
+            <Info Ref="Tests" Type="Relative"/>
+        </Reference>
+        <Reference Location="06b28fd4-9323-4304-b689-268e7e617cae">
+            <Info Ref="Scripts" Type="Relative"/>
+        </Reference>
+        <Reference Location="14e7ffd0-7732-41d6-b0ab-040fa2e95437">
+            <Info Ref="Data" Type="Relative"/>
+        </Reference>
+        <Reference Location="ec915ef6-3e9b-4ebf-aaca-98386522360b">
+            <Info Ref="Requirements" Type="Relative"/>
+        </Reference>
+        <Reference Location="a768d401-f763-4afc-b48d-c2e1458bc945">
+            <Info Ref="Models" Type="Relative"/>
+        </Reference>
+    </ProjectPath>
+    <Files Location="slrequirements">
+        <File Location="Tests">
+            <File Location="LaneFollowingTestScenarios.slmx">
+                <Info>
+                    <odlr type="linkset">
+                        <artifact domain="linktype_rmi_slreq" name="LaneFollowingTestRequirements"/>
+                    </odlr>
+                </Info>
+            </File>
+        </File>
+    </Files>
+    <WorkingFolders Location="Root">
+        <Reference Location="SimulinkCacheFolder">
+            <Info Ref="Work" Type="Relative"/>
+        </Reference>
+        <Reference Location="ProjectStartupFolder">
+            <Info Ref="Work" Type="Relative"/>
+        </Reference>
+        <Reference Location="SimulinkCodeGenFolder">
+            <Info Ref="Work" Type="Relative"/>
+        </Reference>
+    </WorkingFolders>
+    <Config Location="UUID">
+        <Info UUID="0fa0a5b6-0166-4a26-a29b-c099ba8aa5e7"/>
+    </Config>
+    <Info Location="ProjectData">
+        <Info Name="sltestLaneFollowingExample"/>
+    </Info>
+</project>
